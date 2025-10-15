@@ -1,0 +1,87 @@
+ <!-- Discount Information -->
+            <div class="mt-12 bg-gradient-to-r from-green-500 to-green-600 text-white p-8 rounded-2xl text-center">
+                <h3 class="text-2xl font-bold mb-4">Multi-Course Discounts Available!</h3>
+                <div class="grid md:grid-cols-4 gap-4">
+                    <div class="bg-white bg-opacity-20 p-4 rounded-lg">
+                        <div class="text-2xl font-bold">1 Course</div>
+                        <div class="text-sm">No discount</div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 p-4 rounded-lg">
+                        <div class="text-2xl font-bold">2 Courses</div>
+                        <div class="text-sm">5% discount</div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 p-4 rounded-lg">
+                        <div class="text-2xl font-bold">3 Courses</div>
+                        <div class="text-sm">10% discount</div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 p-4 rounded-lg">
+                        <div class="text-2xl font-bold">4+ Courses</div>
+                        <div class="text-sm">15% discount</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+ <!-- Quote Request Section -->
+    <section id="quote" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Request a Quote</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                <p class="text-gray-600">
+                    Select your desired courses and get an instant quote with automatic discount calculations.
+                </p>
+            </div>
+
+            <div class="bg-gray-50 p-8 rounded-2xl">
+                <form id="quoteForm" class="space-y-6">
+                    <!-- Personal Information -->
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
+                            <input type="text" id="fullName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                            <input type="email" id="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number *</label>
+                            <input type="tel" id="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">I am a:</label>
+                            <select id="customerType" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                <option value="employer">Employer</option>
+                                <option value="employee">Employee/Individual</option>
+                            </select>
+                        </div>
+                    </div>
+
+ 
+ <!-- Quote Summary -->
+                    <div id="quoteSummary" class="bg-white p-6 rounded-lg border-2 border-blue-200 hidden">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">Quote Summary</h4>
+                        <div id="selectedCourses" class="mb-4"></div>
+                        <div class="border-t pt-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <span>Subtotal:</span>
+                                <span id="subtotal" class="font-medium">R0</span>
+                            </div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span>Discount:</span>
+                                <span id="discount" class="font-medium text-green-600">R0</span>
+                            </div>
+                            <div class="flex justify-between items-center text-lg font-bold border-t pt-2">
+                                <span>Total:</span>
+                                <span id="total" class="text-blue-600">R0</span>
+                            </div>
+                            <div id="discountBadge" class="mt-3 hidden">
+                                <span class="discount-badge text-white px-3 py-1 rounded-full text-sm font-medium"></span>
+                            </div>
+                        </div>
+                    </div>

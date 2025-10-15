@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering the Nation - Skills Training for Domestic Workers & Gardeners</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .course-card {
+            border-left: 4px solid #3b82f6;
+        }
+        
+        .discount-badge {
+            background: linear-gradient(45deg, #10b981, #059669);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-2xl font-bold text-blue-600">Empowering the Nation</h1>
+                        <p class="text-xs text-gray-600">Skills Training Since 2022</p>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#about" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="#courses" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Courses</a>
+                        <a href="#quote" class="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                    Empowering Communities Through Skills Training
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+                    Professional training programs for domestic workers and gardeners in Johannesburg. 
+                    Hundreds trained since 2022.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#courses" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                        View Courses
+                    </a>
+                    <a href="#quote" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300">
+                        Get Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Empowering the Nation</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Our Mission</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Founded by Precious Radebe in 2022, Empowering the Nation provides essential skills training 
+                        for domestic workers and gardeners who never had the opportunity for formal education or upskilling.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Our programs make participants more marketable, enabling higher wages and entrepreneurial opportunities. 
+                        We've successfully trained hundreds of individuals through our comprehensive programs.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="text-center p-4 bg-blue-50 rounded-lg">
+                            <div class="text-2xl font-bold text-blue-600">500+</div>
+                            <div class="text-sm text-gray-600">Students Trained</div>
+                        </div>
+                        <div class="text-center p-4 bg-green-50 rounded-lg">
+                            <div class="text-2xl font-bold text-green-600">7</div>
+                            <div class="text-sm text-gray-600">Course Options</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-blue-100 to-blue-200 p-8 rounded-2xl">
+                    <h4 class="text-xl font-semibold text-gray-900 mb-4">Program Structure</h4>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
+                            <span class="text-gray-700">Six-month Learnerships (12 weeks)</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-green-600 rounded-full mr-3"></div>
+                            <span class="text-gray-700">Short Skills Training (6 weeks)</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
+                            <span class="text-gray-700">Johannesburg Location</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-orange-600 rounded-full mr-3"></div>
+                            <span class="text-gray-700">Multi-course Discounts Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Training Programs</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Choose from our comprehensive six-month learnerships or focused six-week short courses. 
+                    Multiple course discounts available!
+                </p>
+            </div>
+
+            
+            <!-- Six-Week Courses -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Six-Week Short Courses - R750 each</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md card-hover">
+                        <div class="text-pink-600 text-3xl mb-4">👶</div>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-3">Child Minding</h4>
+                        <p class="text-gray-600 text-sm mb-4">Basic child and baby care</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Baby needs (0-6 months)</li>
+                            <li>• Toddler care (7+ months)</li>
+                            <li>• Educational toys</li>
+                            <li>• Safety protocols</li>
+                        </ul>
+                        <div class="mt-4 text-lg font-bold text-blue-600">R750</div>
+                    </div>
+
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md card-hover">
+                        <div class="text-red-600 text-3xl mb-4">👨‍🍳</div>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-3">Cooking</h4>
+                        <p class="text-gray-600 text-sm mb-4">Prepare nutritious family meals</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Nutritional requirements</li>
+                            <li>• Meal planning</li>
+                            <li>• Healthy recipes</li>
+                            <li>• Cooking techniques</li>
+                        </ul>
+                        <div class="mt-4 text-lg font-bold text-blue-600">R750</div>
+                    </div>
+
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md card-hover">
+                        <div class="text-green-600 text-3xl mb-4">🌿</div>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-3">Garden Maintenance</h4>
+                        <p class="text-gray-600 text-sm mb-4">Basic garden care knowledge</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Plant care basics</li>
+                            <li>• Seasonal maintenance</li>
+                            <li>• Tool usage</li>
+                            <li>• Garden health</li>
+                        </ul>
+                        <div class="mt-4 text-lg font-bold text-blue-600">R750</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Six-Month Courses -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Six-Month Learnerships (12 weeks) - R1,500 each</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md card-hover">
+                        <div class="text-blue-600 text-3xl mb-4">🏥</div>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-3">First Aid</h4>
+                        <p class="text-gray-600 text-sm mb-4">First aid awareness and basic life support</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Wounds and bleeding</li>
+                            <li>• Burns and fractures</li>
+                            <li>• CPR training</li>
+                            <li>• Emergency management</li>
+                        </ul>
+                        <div class="mt-4 text-lg font-bold text-blue-600">R1,500</div>
+                    </div>
+
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md card-hover">
+                        <div class="text-purple-600 text-3xl mb-4">🧵</div>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-3">Sewing</h4>
+                        <p class="text-gray-600 text-sm mb-4">Alterations and garment tailoring services</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Types of stitches</li>
+                            <li>• Machine threading</li>
+                            <li>• Buttons, zips, hems</li>
+                            <li>• New garment design</li>
+                        </ul>
+                        <div class="mt-4 text-lg font-bold text-blue-600">R1,500</div>
+                    </div>
+
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md card-hover">
+                        <div class="text-green-600 text-3xl mb-4">🌳</div>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-3">Landscaping</h4>
+                        <p class="text-gray-600 text-sm mb-4">Professional landscaping for gardens</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Indigenous & exotic plants</li>
+                            <li>• Fixed structures</li>
+                            <li>• Garden layout design</li>
+                            <li>• Plant aesthetics</li>
+                        </ul>
+                        <div class="mt-4 text-lg font-bold text-blue-600">R1,500</div>
+                    </div>
+
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md card-hover">
+                        <div class="text-orange-600 text-3xl mb-4">💡</div>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-3">Life Skills</h4>
+                        <p class="text-gray-600 text-sm mb-4">Navigate basic life necessities</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Banking basics</li>
+                            <li>• Labour law rights</li>
+                            <li>• Reading & writing</li>
+                            <li>• Numeric literacy</li>
+                        </ul>
+                        <div class="mt-4 text-lg font-bold text-blue-600">R1,500</div>
+                    </div>
+                </div>
+            </div>
+
+
+                    <!-- Course Selection -->
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-4">Select Courses *</label>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <!-- Six-Month Courses -->
+                            <div class="space-y-3">
+                                <h4 class="font-medium text-gray-900">Six-Month Courses (R1,500 each)</h4>
+                                <label class="flex items-center">
+                                    <input type="checkbox" class="course-checkbox" data-price="1500" data-name="First Aid" class="mr-3 h-4 w-4 text-blue-600">
+                                    <span class="ml-3">First Aid (R1,500)</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" class="course-checkbox" data-price="1500" data-name="Sewing" class="mr-3 h-4 w-4 text-blue-600">
+                                    <span class="ml-3">Sewing (R1,500)</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" class="course-checkbox" data-price="1500" data-name="Landscaping" class="mr-3 h-4 w-4 text-blue-600">
+                                    <span class="ml-3">Landscaping (R1,500)</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" class="course-checkbox" data-price="1500" data-name="Life Skills" class="mr-3 h-4 w-4 text-blue-600">
+                                    <span class="ml-3">Life Skills (R1,500)</span>
+                                </label>
+                            </div>
+
+
+                            <!-- Discount Information -->
+            <div class="mt-12 bg-gradient-to-r from-green-500 to-green-600 text-white p-8 rounded-2xl text-center">
+                <h3 class="text-2xl font-bold mb-4">Multi-Course Discounts Available!</h3>
+                <div class="grid md:grid-cols-4 gap-4">
+                    <div class="bg-white bg-opacity-20 p-4 rounded-lg">
+                        <div class="text-2xl font-bold">1 Course</div>
+                        <div class="text-sm">No discount</div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 p-4 rounded-lg">
+                        <div class="text-2xl font-bold">2 Courses</div>
+                        <div class="text-sm">5% discount</div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 p-4 rounded-lg">
+                        <div class="text-2xl font-bold">3 Courses</div>
+                        <div class="text-sm">10% discount</div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 p-4 rounded-lg">
+                        <div class="text-2xl font-bold">4+ Courses</div>
+                        <div class="text-sm">15% discount</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+ <!-- Quote Request Section -->
+    <section id="quote" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Request a Quote</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                <p class="text-gray-600">
+                    Select your desired courses and get an instant quote with automatic discount calculations.
+                </p>
+            </div>
+
+            <div class="bg-gray-50 p-8 rounded-2xl">
+                <form id="quoteForm" class="space-y-6">
+                    <!-- Personal Information -->
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
+                            <input type="text" id="fullName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                            <input type="email" id="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number *</label>
+                            <input type="tel" id="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">I am a:</label>
+                            <select id="customerType" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                <option value="employer">Employer</option>
+                                <option value="employee">Employee/Individual</option>
+                            </select>
+                        </div>
+                    </div>
+
+ 
+ <!-- Quote Summary -->
+                    <div id="quoteSummary" class="bg-white p-6 rounded-lg border-2 border-blue-200 hidden">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">Quote Summary</h4>
+                        <div id="selectedCourses" class="mb-4"></div>
+                        <div class="border-t pt-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <span>Subtotal:</span>
+                                <span id="subtotal" class="font-medium">R0</span>
+                            </div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span>Discount:</span>
+                                <span id="discount" class="font-medium text-green-600">R0</span>
+                            </div>
+                            <div class="flex justify-between items-center text-lg font-bold border-t pt-2">
+                                <span>Total:</span>
+                                <span id="total" class="text-blue-600">R0</span>
+                            </div>
+                            <div id="discountBadge" class="mt-3 hidden">
+                                <span class="discount-badge text-white px-3 py-1 rounded-full text-sm font-medium"></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Additional Information -->
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Additional Information or Questions</label>
+                        <textarea id="additionalInfo" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Tell us about your specific needs, preferred start dates, or any questions you have..."></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center">
+                        <button type="submit" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 text-lg">
+                            Submit Quote Request
+                        </button>
+                        <p class="text-sm text-gray-600 mt-2">We'll respond within 24 hours with your personalized quote</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Empowering the Nation</h3>
+                    <p class="text-gray-300 mb-4">
+                        Professional skills training for domestic workers and gardeners in Johannesburg since 2022.
+                    </p>
+                    <p class="text-gray-300">
+                        Hundreds trained • Lives transformed • Communities empowered
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Information</h4>
+                    <div class="space-y-2 text-gray-300">
+                        <p>📍 Johannesburg, South Africa</p>
+                        <p>📧 info@empoweringthenation.co.za</p>
+                        <p>📞 +27 11 XXX XXXX</p>
+                        <p class="text-sm italic">*This is a demo website - contact details are samples</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <div class="space-y-2">
+                        <a href="#about" class="block text-gray-300 hover:text-white">About Us</a>
+                        <a href="#courses" class="block text-gray-300 hover:text-white">Our Courses</a>
+                        <a href="#quote" class="block text-gray-300 hover:text-white">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2024 Empowering the Nation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Quote calculation functionality
+        const courseCheckboxes = document.querySelectorAll('.course-checkbox');
+        const quoteSummary = document.getElementById('quoteSummary');
+        const selectedCoursesDiv = document.getElementById('selectedCourses');
+        const subtotalSpan = document.getElementById('subtotal');
+        const discountSpan = document.getElementById('discount');
+        const totalSpan = document.getElementById('total');
+        const discountBadge = document.getElementById('discountBadge');
+
+        function calculateQuote() {
+            const selectedCourses = [];
+            let subtotal = 0;
+
+            courseCheckboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    const price = parseInt(checkbox.dataset.price);
+                    const name = checkbox.dataset.name;
+                    selectedCourses.push({ name, price });
+                    subtotal += price;
+                }
+            });
+
+            if (selectedCourses.length === 0) {
+                quoteSummary.classList.add('hidden');
+                return;
+            }
+
+            // Calculate discount
+            let discountPercentage = 0;
+            if (selectedCourses.length === 2) discountPercentage = 5;
+            else if (selectedCourses.length === 3) discountPercentage = 10;
+            else if (selectedCourses.length >= 4) discountPercentage = 15;
+
+            const discountAmount = Math.round(subtotal * (discountPercentage / 100));
+            const total = subtotal - discountAmount;
+
+            // Update display
+            selectedCoursesDiv.innerHTML = selectedCourses.map(course => 
+                `<div class="flex justify-between"><span>${course.name}</span><span>R${course.price}</span></div>`
+            ).join('');
+
+            subtotalSpan.textContent = `R${subtotal}`;
+            discountSpan.textContent = `-R${discountAmount}`;
+            totalSpan.textContent = `R${total}`;
+
+            // Show discount badge
+            if (discountPercentage > 0) {
+                discountBadge.classList.remove('hidden');
+                discountBadge.querySelector('span').textContent = `${discountPercentage}% Multi-Course Discount Applied!`;
+            } else {
+                discountBadge.classList.add('hidden');
+            }
+
+            quoteSummary.classList.remove('hidden');
+        }
+
+        courseCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', calculateQuote);
+        });
+
+        // Form submission
+        document.getElementById('quoteForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const selectedCourses = [];
+            courseCheckboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    selectedCourses.push(checkbox.dataset.name);
+                }
+            });
+
+            if (selectedCourses.length === 0) {
+                alert('Please select at least one course to request a quote.');
+                return;
+            }
+
+            const formData = {
+                name: document.getElementById('fullName').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                customerType: document.getElementById('customerType').value,
+                courses: selectedCourses,
+                total: totalSpan.textContent,
+                additionalInfo: document.getElementById('additionalInfo').value
+            };
+
+            // Simulate form submission
+            alert(`Thank you ${formData.name}! Your quote request has been submitted.\n\nSelected Courses: ${formData.courses.join(', ')}\nTotal: ${formData.total}\n\nWe'll contact you within 24 hours at ${formData.email} with your personalized quote and next steps.`);
+            
+            // Reset form
+            this.reset();
+            quoteSummary.classList.add('hidden');
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97b5aa13b6e34193',t:'MTc1NzI0MjQyNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
